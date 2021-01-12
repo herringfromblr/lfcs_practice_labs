@@ -1,0 +1,15 @@
+1. Copy /etc/passwd file to you working directory
+grep & egrep:
+2. Grep the single line for "root" user from the passwd file
+3. Grep 1 line above and 1 line below the "root" user line
+4. Grep all lines except "root" user from passwd
+5. Grep only lines for "root" and "mail" users from passwd
+6. Grep all lines which containt uppercase letters from sed.txt
+7. Grep all lines which start from word "learn" in sed.txt
+8. Grep all lines which end with "os." in sed.txt
+
+head:
+. Use head command to show top 5 lines from passwd file
+
+tail:
+. Use tail command to show bottom 10 lines from passwd file
