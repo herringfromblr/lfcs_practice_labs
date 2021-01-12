@@ -1,4 +1,29 @@
+ls:
 1. List content of /etc directory
-2. List only files/folders which start with "s"
-3. List only files/folders which contain "ubu" or "udo" or "ubg" or "ro" in them
+2. List only files/folders in /etc which start with "s"
+3. List only files/folders in /etc which contain "ubu" or "udo" or "ubg" or "ro" in them
+4. List only files/folders in /etc which start with "t" or "u"
+
+
+tar:
+. Create tar archive of /var/log/ folder and save to user home directory
+. Create tar.gz archive of /var/log/ folder and save to user home directory
+. Create tar archive of 2 files(/etc/passwd and /etc/shadow) and save to user home directory
+. Delete file "shadow" from the archive from the previous step
+
+find:
+. Find all files in /etc/ bigger than 100K in size
+. Find all files and directories in /etc/ which contain "su" in their name and add them to tar archive(this should be done in 1 command)
+. Make a hard link to /etc/passwd and save it to /var/tmp/. Then find all files in / with the same inode as /etc/passwd 
+
+
+ln:
+Create a file with the below bash command:
+  $ echo "Test file" > test_file.txt
+
+. Make a soft link(name: soft_link_to_test_file.txt) to that file 
+. Make a hard link(name: hard_link_to_test_file.txt) to that file   
+
+Delete file test_file.txt. Is soft link still alive? Then delete the hard link hard_link_to_test_file.txt. Is soft link still alive?
+
 

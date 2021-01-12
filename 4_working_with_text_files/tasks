@@ -1,4 +1,5 @@
 1. Copy /etc/passwd file to you working directory
+
 grep & egrep:
 2. Grep the single line for "root" user from the passwd file
 3. Grep 1 line above and 1 line below the "root" user line
@@ -9,7 +10,33 @@ grep & egrep:
 8. Grep all lines which end with "os." in sed.txt
 
 head:
-. Use head command to show top 5 lines from passwd file
+9. Use head command to show top 5 lines from passwd file
 
 tail:
-. Use tail command to show bottom 10 lines from passwd file
+10. Use tail command to show bottom 10 lines from passwd file
+
+cut:
+11. Print the 2 column from passwd file 
+
+tr:
+12. Replace all letters from lowercase to uppercase in passwd
+
+sed:
+13. Replace word "unix" with "linux" in the 1st line
+14. Replace word "unix" with "linux" in all lines
+15. Replace word "unix" with "linux" in all lines and save the output to sed-output.txt
+16. Make 1st letter in all lines in upper case
+17. Display only the 3rd line from the file passwd
+18. Insert the  Additional line "I'll pass LFCS exam with 100% score" between lines 2 and 3 in the file sed.txt
+19. Print lines from passwd file beginning with the string "ro" 
+
+
+awk:
+20. Print the 2 column from passwd file
+21. Print usernames from passwd file
+22. Print shell of user "games" from passwd file
+
+all commands could be used:
+23. Find the name of the service which uses TCP port 5052, as documented in /etc/services, and write the service name to the file service.txt
+Note: do the task in 1 command
+

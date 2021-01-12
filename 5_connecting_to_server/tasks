@@ -1,0 +1,14 @@
+1. Create new user "test_user" and add him to sudoers:
+   - by means of group
+   - by means of file
+
+2. Connect via ssh to linux server from CLI using username/password from linux host#2
+3. Create ssh keys for "test_user" on linux host#2
+3. Copy public ssh key to linux server
+4. Connect via ssh to linux server from linux host#2 using SSH keys
+
+5. Check all users logged to the server
+6. Copy /etc/passwd file from linux server to linux host#2 via SCP to /var/tmp/ folder:
+   - from linux host#2
+   - from linux server to linux host#2
+
