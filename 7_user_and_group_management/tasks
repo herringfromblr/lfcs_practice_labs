@@ -1,0 +1,17 @@
+1. Create the user "bob"
+2. Create the group "bob-group"
+3. Add user bob to group bob-group
+4. Modify shell to "/bin/sh" for user bob
+5. Set passwd for user bob with the following parameters:
+   - expires in 100 days
+
+6. Create 2 directories:
+   /var/tmp/student
+   /var/tmp/student/bin
+7. Create new group "students"
+8. Create the user student with the following parameters:
+   - username: student
+   - password: student
+   - homedir: /var/tmp/srudent
+   - user student is a member of students group
+   - folder /var/tmp/student/bin is added to user PATH variable

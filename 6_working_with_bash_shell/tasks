@@ -1,0 +1,7 @@
+1. Create variable "ENV=TEST" and echo it
+2. Create varaible "ENV=DEV" and add to to env variables
+3. Create an alias "lld" which lists only directories
+4. Modify the environment that after login all users have:
+ 4.1| an alias ipconfig which runs "ip addr show"
+ 4.2| a variable "ENV=PROD" 
+ 4.3| ensure that all aliases are avaliable in all subshells

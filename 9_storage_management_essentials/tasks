@@ -1,0 +1,14 @@
+Let's suppose that you have the single disk(ie /dev/sda):
+
+1. Add 2Gb more to existing /dev/sda disk
+2. Add additional 3Gb disk to your Ubuntu VM(ie /dev/sdb)
+3. Create new partition on /dev/sda to use 2Gb added in step#1
+4. Make 2 partitions on /dev/sdb 1.5Gb each
+
+5. Create filesystems on these 3 new partitions:
+  /dev/sda{?} - ext4
+  /dev/sdb1 - ext4
+  /dev/sdb2 - ext3
+
+6. Mount crated filesystems
+

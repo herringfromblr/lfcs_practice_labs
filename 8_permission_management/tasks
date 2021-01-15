@@ -1,0 +1,19 @@
+1. Create group test_users
+2. Create file file.txt
+3. Make a group test_users owner of file.txt
+4. Add user alice
+5. Make user alice an owner of file.txt
+6. Set permissions of that file:
+ - owner: r-w-e
+ - group: r
+ - other: -
+
+7. Set permissions of that file:
+ - owner: r
+ - group: r-w
+ - other: r-w-e
+
+8. Create directory /var/tmp/working
+9. Set GID bit for that group
+10. Create file "temporary.txt" in /var/tmp/working 
+11. Set UID for that file
